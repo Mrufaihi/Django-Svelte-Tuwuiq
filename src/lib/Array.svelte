@@ -1,9 +1,11 @@
 <script>
-  const fruits = ['orange', 'banana', 'apple'];
+  let fruits = ['orange', 'banana', 'apple'];
 
-  fruits.forEach((fruit) => {
-    if (fruit === 'orange') console.log('Orange Found!');
-  });
+  if (fruits.includes('orange')) {
+    console.log('Orange Found Yes!!');
+  } else {
+    console.log('Not Found');
+  }
 </script>
 
 <main>
