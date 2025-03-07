@@ -1,0 +1,8 @@
+   [build]
+     command = "npm run build"    # Command to build your site
+     publish = "dist"            # Folder with the built site
+
+   [[redirects]]
+     from = "/*"                # Any route
+     to = "/index.html"         # Goes to index.html
+     status = 200              # Return 200 status
