@@ -13,7 +13,7 @@
     Table,
   } from '$lib/components/ui/table/index';
   import { ModeWatcher } from 'mode-watcher';
-  // import { SaudiRiyal } from '/public/saudi-riyal.svg';
+  // import { SaudiRiyal } from '/saudi-riyal.svg';
 
   const companies = ['Apple', 'GOOGLE'];
 
@@ -32,8 +32,8 @@
   <div class="flex flex-col gap-10">
     <!-- header -->
     <header class="flex items-center justify-between border-b-2 p-3" dir="ltr">
-      <img src="/public/car-logo.png" class="w-[100px] rounded-full" alt="" />
-      <div class="text-2xl">الشركه العالميه للسيارات</div>
+      <img src="./car-logo.png" class="w-[100px] rounded-full" alt="" />
+      <div class="text-2xl">الشركه العالميه</div>
       <div class="">
         <a href="mailto:Malrufaihi@gmail.com">Malrufaihi@gmail.com</a>
         <span>|</span>
@@ -59,7 +59,7 @@
             <TableCell>ابيض</TableCell>
             <TableCell class="flex justify-center gap-2">
               68000
-              <img src="/public/saudi-riyal.svg" class="w-[15px]" alt="" />
+              <img src="./saudi-riyal.svg" class="w-[15px]" alt="" />
             </TableCell>
           </TableRow>
           <TableRow>
@@ -68,7 +68,7 @@
             <TableCell>ابيض</TableCell>
             <TableCell class="flex justify-center gap-2">
               100000
-              <img src="/public/saudi-riyal.svg" class="w-[15px]" alt="" />
+              <img src="./saudi-riyal.svg" class="w-[15px]" alt="" />
             </TableCell>
           </TableRow>
         </TableBody>
@@ -92,7 +92,7 @@
         </CardContent>
         <CardContent>
           <img
-            src="/public/Toyota Camry 70 3_5 V6.jpeg"
+            src="./Toyota Camry 70 3_5 V6.jpeg"
             class="max-w-[150px] rounded-md object-contain"
             alt=""
           />
